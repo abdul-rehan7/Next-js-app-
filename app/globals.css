@@ -1,26 +1,88 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-roboto);
+  --font-display: var(--font-roboto);
+
+  --color-background: #fffaf8;
+  --color-foreground: #1c1717;
+  --color-ink: #1c1717;
+  --color-muted: #3f3a39;
+
+  --color-brand-50: #fff1f2;
+  --color-brand-100: #ffe0e2;
+  --color-brand-200: #ffc6ca;
+  --color-brand-300: #ff9aa2;
+  --color-brand-400: #fb6672;
+  --color-brand-500: #ef3346;
+  --color-brand-600: #d91f36;
+  --color-brand-700: #b5162b;
+  --color-brand-800: #961628;
+  --color-brand-900: #7e1626;
+
+  --radius-card: 1.75rem;
+  --radius-field: 1rem;
+
+  --shadow-card: 0 24px 60px -42px rgba(126, 22, 38, 0.45);
+  --shadow-lift: 0 34px 70px -36px rgba(126, 22, 38, 0.32);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #fffaf8;
+  --foreground: #1c1717;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--color-brand-200);
+  color: var(--color-ink);
+}
+
+@keyframes float-shoe {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-7deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(-4deg);
+  }
+}
+
+.animate-float-shoe {
+  animation: float-shoe 7s ease-in-out infinite;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-rise {
+  animation: rise-in 0.7s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-float-shoe,
+  .animate-rise {
+    animation: none;
+  }
 }

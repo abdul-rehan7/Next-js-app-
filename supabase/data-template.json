@@ -1,0 +1,182 @@
+{
+  "brands": [
+    {
+      "id": "puma",
+      "name": "PUMA",
+      "slug": "puma",
+      "tagline": "Forever Faster."
+    }
+  ],
+  "products": [
+    {
+      "id": "puma-suede-classic",
+      "slug": "suede-classic",
+      "name": "Suede Classic",
+      "brand": "puma",
+      "price": 75,
+      "compareAtPrice": 90,
+      "image": "/shoes/puma-suede-classic.png",
+      "colorway": "Black / White",
+      "category": "Lifestyle",
+      "rating": 4.8,
+      "badge": "Best seller",
+      "featured": true,
+      "description": "A timeless streetwear icon. The PUMA Suede Classic combines premium suede materials, a clean silhouette and everyday comfort to deliver an iconic sneaker that never goes out of style.",
+      "details": [
+        "Premium suede leather upper",
+        "PUMA Formstrip side branding",
+        "Comfortable padded collar",
+        "Durable rubber outsole",
+        "Classic lace-up closure"
+      ],
+      "active": true,
+      "variants": [
+        { "size": "7", "stock": 6, "lowStockThreshold": 5 },
+        { "size": "8", "stock": 10, "lowStockThreshold": 5 },
+        { "size": "8.5", "stock": 8, "lowStockThreshold": 5 },
+        { "size": "9", "stock": 14, "lowStockThreshold": 5 },
+        { "size": "9.5", "stock": 12, "lowStockThreshold": 5 },
+        { "size": "10", "stock": 16, "lowStockThreshold": 5 },
+        { "size": "10.5", "stock": 8, "lowStockThreshold": 5 },
+        { "size": "11", "stock": 6, "lowStockThreshold": 5 },
+        { "size": "12", "stock": 4, "lowStockThreshold": 5 }
+      ]
+    },
+    {
+      "id": "puma-palermo",
+      "slug": "palermo",
+      "name": "Palermo",
+      "brand": "puma",
+      "price": 85,
+      "compareAtPrice": 100,
+      "image": "/shoes/puma-palermo.png",
+      "colorway": "White / Green",
+      "category": "Lifestyle",
+      "rating": 4.7,
+      "badge": "Trending",
+      "featured": true,
+      "description": "Inspired by PUMA's football heritage, the Palermo brings retro terrace style into modern streetwear. Its premium materials and distinctive design make it perfect for everyday outfits.",
+      "details": [
+        "Premium leather upper",
+        "Suede overlays and T-toe construction",
+        "Classic PUMA Formstrip",
+        "Rubber gum outsole",
+        "Comfortable textile lining"
+      ],
+      "active": true,
+      "variants": [
+        { "size": "7", "stock": 5, "lowStockThreshold": 5 },
+        { "size": "8", "stock": 8, "lowStockThreshold": 5 },
+        { "size": "8.5", "stock": 10, "lowStockThreshold": 5 },
+        { "size": "9", "stock": 12, "lowStockThreshold": 5 },
+        { "size": "9.5", "stock": 9, "lowStockThreshold": 5 },
+        { "size": "10", "stock": 14, "lowStockThreshold": 5 },
+        { "size": "10.5", "stock": 7, "lowStockThreshold": 5 },
+        { "size": "11", "stock": 5, "lowStockThreshold": 5 },
+        { "size": "12", "stock": 3, "lowStockThreshold": 5 }
+      ]
+    },
+    {
+      "id": "puma-rs-x",
+      "slug": "rs-x",
+      "name": "RS-X",
+      "brand": "puma",
+      "price": 110,
+      "compareAtPrice": 130,
+      "image": "/shoes/puma-rs-x.png",
+      "colorway": "White / Blue / Red",
+      "category": "Lifestyle",
+      "rating": 4.6,
+      "badge": "Popular",
+      "featured": true,
+      "description": "Bold design meets modern comfort. The PUMA RS-X features a chunky silhouette, layered materials and advanced cushioning inspired by PUMA's running system heritage.",
+      "details": [
+        "Mesh and synthetic leather upper",
+        "RS cushioning technology",
+        "Chunky retro-inspired midsole",
+        "Padded tongue and collar",
+        "Durable rubber outsole"
+      ],
+      "active": true,
+      "variants": [
+        { "size": "7", "stock": 4, "lowStockThreshold": 5 },
+        { "size": "8", "stock": 9, "lowStockThreshold": 5 },
+        { "size": "8.5", "stock": 7, "lowStockThreshold": 5 },
+        { "size": "9", "stock": 13, "lowStockThreshold": 5 },
+        { "size": "9.5", "stock": 11, "lowStockThreshold": 5 },
+        { "size": "10", "stock": 15, "lowStockThreshold": 5 },
+        { "size": "10.5", "stock": 8, "lowStockThreshold": 5 },
+        { "size": "11", "stock": 6, "lowStockThreshold": 5 },
+        { "size": "12", "stock": 4, "lowStockThreshold": 5 }
+      ]
+    },
+    {
+      "id": "puma-caven-2-0",
+      "slug": "caven-2-0",
+      "name": "Caven 2.0",
+      "brand": "puma",
+      "price": 65,
+      "compareAtPrice": 80,
+      "image": "/shoes/puma-caven-2.png",
+      "colorway": "White / Black",
+      "category": "Lifestyle",
+      "rating": 4.5,
+      "badge": "Great value",
+      "featured": false,
+      "description": "A basketball-inspired sneaker designed for everyday wear. The PUMA Caven 2.0 combines vintage court aesthetics with comfortable cushioning and versatile styling.",
+      "details": [
+        "Synthetic leather upper",
+        "Perforated toe detailing",
+        "SoftFoam+ cushioned footbed",
+        "PUMA branding on tongue and heel",
+        "Rubber cupsole construction"
+      ],
+      "active": true,
+      "variants": [
+        { "size": "7", "stock": 8, "lowStockThreshold": 5 },
+        { "size": "8", "stock": 12, "lowStockThreshold": 5 },
+        { "size": "8.5", "stock": 10, "lowStockThreshold": 5 },
+        { "size": "9", "stock": 16, "lowStockThreshold": 5 },
+        { "size": "9.5", "stock": 14, "lowStockThreshold": 5 },
+        { "size": "10", "stock": 18, "lowStockThreshold": 5 },
+        { "size": "10.5", "stock": 9, "lowStockThreshold": 5 },
+        { "size": "11", "stock": 7, "lowStockThreshold": 5 },
+        { "size": "12", "stock": 5, "lowStockThreshold": 5 }
+      ]
+    },
+    {
+      "id": "puma-future-rider",
+      "slug": "future-rider",
+      "name": "Future Rider",
+      "brand": "puma",
+      "price": 90,
+      "compareAtPrice": 105,
+      "image": "/shoes/puma-future-rider.png",
+      "colorway": "Grey / White / Yellow",
+      "category": "Lifestyle",
+      "rating": 4.7,
+      "badge": "New arrival",
+      "featured": false,
+      "description": "The PUMA Future Rider brings classic running inspiration into contemporary streetwear. Featuring lightweight construction, retro styling and comfortable cushioning, it is made for everyday adventures.",
+      "details": [
+        "Lightweight nylon and synthetic upper",
+        "Suede overlays",
+        "Federbein-inspired outsole design",
+        "Comfortable cushioned midsole",
+        "PUMA Formstrip side branding"
+      ],
+      "active": true,
+      "variants": [
+        { "size": "7", "stock": 5, "lowStockThreshold": 5 },
+        { "size": "8", "stock": 9, "lowStockThreshold": 5 },
+        { "size": "8.5", "stock": 8, "lowStockThreshold": 5 },
+        { "size": "9", "stock": 12, "lowStockThreshold": 5 },
+        { "size": "9.5", "stock": 10, "lowStockThreshold": 5 },
+        { "size": "10", "stock": 14, "lowStockThreshold": 5 },
+        { "size": "10.5", "stock": 7, "lowStockThreshold": 5 },
+        { "size": "11", "stock": 5, "lowStockThreshold": 5 },
+        { "size": "12", "stock": 3, "lowStockThreshold": 5 }
+      ]
+    }
+  ]
+}
